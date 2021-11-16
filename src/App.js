@@ -15,8 +15,8 @@ export default function App() {
           <Route path="/hostname/page2" component={Page2} />
           <Route path="/hostname/page3" component={Page3} />
         </Switch>
-        <Link to="/">Page1</Link> <Link to="/page2">page2</Link>{" "}
-        <Link to="/page3">page3</Link>
+        <Link to="/hostname">Page1</Link> <Link to="/hostname/page2">page2</Link>{" "}
+        <Link to="/hostname/page3">page3</Link>
       </Router>{" "}
 
     </>
