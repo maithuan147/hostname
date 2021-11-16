@@ -11,9 +11,9 @@ export default function App() {
       <Router>
         {" "}
         <Switch>
-          <Route exact path="/" component={Page1} />
-          <Route path="/page2" component={Page2} />
-          <Route path="/page3" component={Page3} />
+          <Route exact path="/hostname" component={Page1} />
+          <Route path="/hostname/page2" component={Page2} />
+          <Route path="/hostname/page3" component={Page3} />
         </Switch>
         <Link to="/">Page1</Link> <Link to="/page2">page2</Link>{" "}
         <Link to="/page3">page3</Link>
